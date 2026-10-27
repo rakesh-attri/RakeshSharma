@@ -65,3 +65,7 @@ All asset paths are relative, so the same files work at the domain root or insid
 - Added 11 years of IT experience and consulting experience including Wipro and Appirio, as supplied by you. No employment dates or company-specific job titles are assumed.
 - Added a real, locally bundled Bhajan Mandali homepage screenshot captured on 23 October 2026. Clicking the preview opens the website.
 - The assets folder now also includes `saralforce-mascot.png` and `bhajan-mandali-homepage.jpg`. Upload the entire assets folder with the HTML, CSS, and JavaScript files.
+
+Chrome Web Store download added alongside Microsoft Edge, with bundled browser SVG icons and responsive store buttons.
+
+Top release announcement: SaralForce v1.4, with Chrome Web Store and Edge Add-ons links. Edit the release version in index.html when announcing a future update.
