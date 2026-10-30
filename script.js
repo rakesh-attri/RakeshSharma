@@ -33,6 +33,16 @@
       status.textContent = 'Portfolio link copied. Ready to share!';
     } catch (_) { status.textContent = 'Copy this link: ' + url; }
   });
+  const counterImg = document.getElementById('visit-counter-img');
+  if (counterImg) {
+    const visitKey = 'rs_portfolio_unique_visitor';
+    let hasVisited = false;
+    try { hasVisited = !!localStorage.getItem(visitKey); } catch (_) {}
+    if (!hasVisited) {
+      counterImg.src = 'https://visitor-badge.laobi.icu/badge?page_id=rakesh-attri.RakeshSharma&left_text=Unique%20Visitors&left_color=%23242421&right_color=%23f15b35';
+      try { localStorage.setItem(visitKey, '1'); } catch (_) {}
+    }
+  }
 })();
 
 // Static, illustrative framework walkthrough. This does not run browser tests or call an AI service.
