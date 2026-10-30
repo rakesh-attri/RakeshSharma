@@ -68,4 +68,4 @@ All asset paths are relative, so the same files work at the domain root or insid
 
 Chrome Web Store download added alongside Microsoft Edge, with bundled browser SVG icons and responsive store buttons.
 
-Top release announcement: SaralForce v1.4, with Chrome Web Store and Edge Add-ons links. Edit the release version in index.html when announcing a future update.
+Top release announcement: SaralForce v2.1, with Chrome Web Store and Edge Add-ons links. Edit the release version in index.html when announcing a future update.
